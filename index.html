@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WikiIa | Accueil</title>
+    <title>WikiAI | Accueil</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/quiz.css">
     <script src="js/menu.js"></script>
+    <script src="js/quiz.js" defer></script>
   </head>
   <body>
     <header>
@@ -67,7 +69,357 @@
       </div>
     </header>
     <hr>
-    <main></main>
+    <main>
+      <section>
+        <article class="intro">
+          <h3 class="h3-intro">Le projet</h3>
+          <div class="contenu-intro">
+          <p class="para-intro">Ce site a pour but de vous initier au sujet de l'intelligence artificielle. Nombreux sont ceux qui 
+            connaissent ces mots, mais sans pour autant en connaître réellement les tenants et aboutissants. Et bien ici, vous trouverez
+            les bases à connaître pour une vie en armonie avec ces formes "d'intelligence" pas si nouvelles que ça.
+            <br>
+            <br>
+            <br>
+            Votre chemin sera parsemé de petites questions afin de vous assurer que vous avez bien compris les concepts et les explications
+            abordés.
+          </p>
+          <img class="img-intro" src="images/projet-img.jpg" alt="Réflexion">
+        </div>
+        </article>
+        <br>
+        <article class="sujets">
+          <h4 class="h4-sous-titre">Les sujets abordés</h4>
+          <div class="contenu-intro">
+          <img class="img-intro" src="images/subject.jpg" alt="subject">
+          <p style="margin-left: 2%;">Dans le but de comprendre le fonctionnement et les possibilités <a href="application.html">d'application </a> dans la vie quotidienne et institutionnelle
+            , il est important de comprendre comment nous en sommes arrivés à la forme la plus récente des algorithmes intelligents.
+            C'est pour quoi le premier thème abordé sera <a href="histoire.html">l'Histoire </a> des premiéres traces de ce qui a donné naissance à l'intelligence artificielle.
+            <br>
+            <br>
+            Par la suite, vous pourez parcourir les sections relatives à l'importance de la <a href="cyber.html">cybersécurité</a> dans cette dynamique d'incorporation de l'IA dans différents domaines.
+            Mais vous pourez également trouver des <a href="conseil.html">conseils</a> relatifs à l'association de cette technologie dans votre vie quotidienne, aprés tout, pourquoi se priver d'un assistant 
+            aussi performant et polyvalent que celui-ci.
+            <br>
+            <br>
+            Enfin, la dernière catégorie que vous trouverez, soulève les multiples <a href="problèmes.html">problèmes structurels</a> de l'IA.
+          </p>
+        </div>
+        </article>
+      </section>
+      <br>
+      <hr>
+      <section>
+        <h3 class="h3-intro">Testez vos connaissances</h3>
+        <article>
+          <div class="quiz-container">
+            <div id="quiz">
+              <div class="question" id="question1">
+                <p>Question 1 : Quelle est la signification de l'acronyme "IA" ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q1" value="a"> Intelligence Avancée</label>
+                  <label><input type="radio" name="q1" value="b"> Interaction Automatique</label>
+                  <label><input type="radio" name="q1" value="c"> Intelligence Artificielle</label>
+                </div>
+              </div>
+          
+              <div class="question" id="question2">
+                <p>Question 2 : Qu'est-ce que le machine learning ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q2" value="a"> Un café préparé par une machine</label>
+                  <label><input type="radio" name="q2" value="b"> Un processus permettant aux machines d'apprendre à partir de données</label>
+                  <label><input type="radio" name="q2" value="c"> Une nouvelle console de jeux</label>
+                </div>
+              </div>
+          
+              <div class="question" id="question3">
+                <p>Question 3 : Qui est considéré comme le père de l'intelligence artificielle ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q3" value="a"> Mark Zuckerberg</label>
+                  <label><input type="radio" name="q3" value="b"> Alan Turing</label>
+                  <label><input type="radio" name="q3" value="c"> Elon Musk</label>
+                </div>
+              </div>
+
+              <div class="question" id="question4">
+                <p>Question 4 : Quelle est la différence entre l'apprentissage supervisé et l'apprentissage non supervisé en machine learning ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q4" value="a"> L'apprentissage non supervisé ne nécessite pas de données étiquettées, l'apprentissage supervisé en a besoin</label>
+                  <label><input type="radio" name="q4" value="b"> L'apprentissage supervisé nécessite un enseignant, l'apprentissage non supervisé n'en a pas besoin</label>
+                  <label><input type="radio" name="q4" value="c"> Il n'y a aucune différence entre les deux</label>
+                </div>
+              </div>
+              
+              <div class="question" id="question5">
+                <p>Question 5 : Qu'est-ce qu'un réseau de neurones artificiels ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q5" value="a"> Un ensemble de cerveaux humains connectés</label>
+                  <label><input type="radio" name="q5" value="b"> Un modèle mathématique inspiré du fonctionnement du cerveau humain</label>
+                  <label><input type="radio" name="q5" value="c"> Un dispositif de stockage de données</label>
+                </div>
+              </div>
+              
+              <div class="question" id="question6">
+                <p>Question 6 : Quel est le rôle d'un algorithme génétique en intelligence artificielle ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q6" value="a"> Développer des solutions très efficaces à un problème donné, dans un temps assez court</label>
+                  <label><input type="radio" name="q6" value="b"> Réaliser des opérations mathématiques complexes</label>
+                  <label><input type="radio" name="q6" value="c"> Protéger un système contre les attaques de sécurité</label>
+                </div>
+              </div>
+
+              <div class="question" id="question7">
+                <p>Question 7 : Qu'est-ce que le traitement du langage naturel (NLP) en intelligence artificielle ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q7" value="a"> Un traitement des aliments par des robots</label>
+                  <label><input type="radio" name="q7" value="b"> L'analyse et la compréhension du langage humain par des machines</label>
+                  <label><input type="radio" name="q7" value="c"> La création de nouveaux langages artificiels</label>
+                </div>
+              </div>
+              
+              <div class="question" id="question8">
+                <p>Question 8 : Qu'est-ce qu'un chatbot ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q8" value="a"> Un robot qui aime discuter</label>
+                  <label><input type="radio" name="q8" value="b"> Un logiciel conçu pour simuler une conversation humaine</label>
+                  <label><input type="radio" name="q8" value="c"> Un outil de recherche en ligne</label>
+                </div>
+              </div>
+              
+              <div class="question" id="question9">
+                <p>Question 9 : Quelle est la principale préoccupation éthique liée à l'intelligence artificielle ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q9" value="a"> Son coût élevé</label>
+                  <label><input type="radio" name="q9" value="b"> Son impact sur l'emploi</label>
+                  <label><input type="radio" name="q9" value="c"> La prise de décisions automatisée et ses implications</label>
+                </div>
+              </div>
+
+              <div class="question" id="question10">
+                <p>Question 10 : Quelle est la différence entre l'apprentissage supervisé et l'apprentissage non supervisé ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q10" value="a"> L'apprentissage supervisé nécessite un enseignant, l'apprentissage non supervisé n'en a pas besoin</label>
+                  <label><input type="radio" name="q10" value="b"> Aucune différence </label>
+                  <label><input type="radio" name="q10" value="c"> L'apprentissage supervisé nécessite des étiquettes, l'apprentissage non supervisé n'en a pas besoin</label>
+                </div>
+              </div>
+              
+              <div class="question" id="question11">
+                <p>Question 11 : Qu'est-ce que la vision par ordinateur ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q11" value="a"> Une technologie pour améliorer la qualité des écrans d'ordinateur</label>
+                  <label><input type="radio" name="q11" value="b"> Un domaine de l'intelligence artificielle qui permet aux machines de comprendre et d'interpréter des images visuelles</label>
+                  <label><input type="radio" name="q11" value="c"> Une méthode pour rendre les ordinateurs plus rapides</label>
+                </div>
+              </div>
+              
+              <div class="question" id="question12">
+                <p>Question 12 : Qu'est-ce que la singularité technologique en intelligence artificielle ?</p>
+                <br>
+                <div class="options">
+                  <label><input type="radio" name="q12" value="a"> Une théorie musicale</label>
+                  <label><input type="radio" name="q12" value="b"> Le point hypothétique où l'intelligence artificielle devient capable de s'améliorer elle-même de manière exponentielle</label>
+                  <label><input type="radio" name="q12" value="c"> Un événement annuel sur l'innovation technologique</label>
+                </div>
+              </div>
+              <br>
+              <button onclick="nextQuestion()">Suivante</button>
+              <div id="result"></div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <hr>
+      <h3 class="h3-intro">Choisissez votre point de départ</h3>
+      <section class="cards">
+        <article class="choice">
+          <img src="images/bgi-hist.jpg" alt="Histoire de l'IA">
+          <h4>Histoire de la naissance de l'IA</h4>
+          <br>
+          <p>Dans cette partie, vous suivrez les traces de la création de l'IA, des prémices à nos jours.
+          </p>
+          <br>
+          <br>
+         <a href="histoire.html"><button>Je découvre</button></a>
+        </article>
+        <article class="choice">
+          <img src="images/bgi-appli.jpg" alt="Application de l'IA">
+          <h4>L'application de l'IA dans les institutions</h4>
+          <br>
+          <p>Dans cette partie, vous découvrirez les différentes instituions qui utilisent déjà l'intelligence artificiell.
+          </p>
+          <br>
+         <a href="application.html"><button>Je découvre</button></a>
+        </article>
+        <article class="choice">
+          <img src="images/bgi-cyber.jpg" alt="Cybersécurité">
+          <h4>Les enjeux de Cybersécurité</h4>
+          <br>
+          <p>Dans cette partie, vous verez que cette technologie invite à se soucier des nouveaux problèmes de sécurité.
+          </p>
+          <br>
+          <br>
+         <a href="cyber.html"><button>Je découvre</button></a>
+        </article>
+        <article class="choice">
+          <img src="images/bgi-conseil.jpg" alt="Conseils d'application dans la vie quotidienne">
+          <h4>Conseils</h4>
+          <br>
+          <p>Dans cette partie, nous vous donnerons des conseils afin de gagner en productivité dans votre vie pro comme perso.
+          </p>
+          <br>
+         <a href="conseil.html"><button>Je découvre</button></a>
+        </article>
+        <article class="choice">
+          <img src="images/bgi-prob.jpg" alt="Problèmes de l'IA ">
+          <h4>Les problèmes de l'IA</h4>
+          <br>
+          <p>Dans cette partie, vous suivrez les traces de la création de l'IA, des prémices à nos jours
+          </p>
+          <br>
+          <br>
+          
+         <a href="problèmes.html"><button>Je découvre</button></a>
+        </article>
+        <article class="choice">
+          <img src="images/bg-veille-info.jpg" alt="Veille info ">
+          <h4>Veille info</h4>
+          <br>
+          <p>Dans cette partie, vous retrouverez les dernières infos de mise à jours et des nouvelles sorties d'outils.
+          </p>
+          <br>
+         <a href="veille.html"><button>Je découvre</button></a>
+        </article>
+      </section>
+      <hr>
+      <section>
+        <h3 class="h3-intro">L'équipe</h3>
+        <article class="team">
+          <div class="membre">
+          <img class="membre-img" src="images/FLo.jpg" alt="membre de l'équipe">
+          <h4>Florian D</h4>
+          <h5>Chef de projet</h5>
+          <br>
+          <p>Rôle: Maquettage, développement, définition de l'identité visuelle et définition des besoins.</p>
+        </div>
+        <div class="membre">
+          <img class="membre-img" src="images/gpt.png" alt="Logo Chat GPT">
+          <h4>ChatGPT (open IA)</h4>
+          <h5>Assistant chef de projet</h5>
+          <br>
+          <p>Rôle: Assistance dans les tâches de recherches et de formulation.</p>
+        </div>
+        </article>
+        <article>
+          <br>
+          <h4>Un mot de l'équipe</h4>
+          <br>
+          <p>Ce site se veut être un compagnon de découverte, une ressource où novices et passionnés 
+          peuvent trouver des informations claires, des analyses approfondies et des réflexions sur 
+          les opportunités et les défis que nous réserve l'IA.
+        <br>
+        <br>
+        Travailler sur ce projet fût trés enrichissant de connaissances et une bonne manière de mettre à l'épreuve
+        les connaissances techniques et théoriques de l'équipe. Nous espérons que vous trouverez votre expérience de navigation tout aussi
+        passionnante.</p>
+        </article>
+        <br>
+        <article>
+          <h4>Les technologies utilisées</h4>
+          <br>
+          <section class="container">
+            <!-- HTML Chart -->
+            <figure class="chart" data-percent="100">
+              <figcaption >HTML</figcaption>
+              <img style="border-radius: 50%;" class="html" src="images/html.jpg" />
+              <svg width="200" height="200">
+                <circle
+                  class="outer"
+                  cx="95"
+                  cy="95"
+                  r="85"
+                  transform="rotate(-90, 95, 95)"
+                />
+              </svg>
+              <figcaption style="color: black;">HTML</figcaption>
+            </figure>
+
+            <!-- CSS Chart -->
+            <figure class="chart" data-percent="100">
+              <figcaption>CSS</figcaption>
+              <img style="border-radius: 50%;" class="css" src="images/CSS.jpg" />
+              <svg width="200" height="200">
+                <circle
+                  class="outer"
+                  cx="95"
+                  cy="95"
+                  r="85"
+                  transform="rotate(-90, 95, 95)"
+                />
+              </svg>
+              <figcaption style="color: black;">CSS</figcaption>
+            </figure>
+
+            <!-- Javascript Chart -->
+            <figure class="chart" data-percent="75">
+              <figcaption>Javascript</figcaption>
+              <img style="border-radius: 50%;" class="javascript" src="images/JS.jpg" />
+              <svg width="200" height="200">
+                <circle
+                  class="outer"
+                  cx="95"
+                  cy="95"
+                  r="85"
+                  transform="rotate(-90, 95, 95)"
+                />
+              </svg>
+              <figcaption style="color: black;">Javascript</figcaption>
+            </figure>
+
+            <!-- Python Chart -->
+            <figure class="chart" data-percent="75">
+              <figcaption>Node</figcaption>
+              <img style="border-radius: 50%;" class="node" src="images/python.jpg" />
+              <svg width="200" height="200">
+                <circle
+                  class="outer"
+                  cx="95"
+                  cy="95"
+                  r="85"
+                  transform="rotate(-90, 95, 95)"
+                />
+              </svg>
+              <figcaption style="color: black;">Python</figcaption>
+            </figure>
+              <!-- SQL Chart -->
+              <figure class="chart" data-percent="50">
+                <figcaption>SQL</figcaption>
+                <img style="border-radius: 50%;" class="css" src="https://logodix.com/logo/541959.jpg" />
+                <svg width="200" height="200">
+                  <circle
+                    class="outer"
+                    cx="95"
+                    cy="95"
+                    r="85"
+                    transform="rotate(-90, 95, 95)"
+                  />
+                </svg>
+                <figcaption style="color: black;">SQL</figcaption>
+              </figure>
+          </section>
+        </article>
+      </section>
+    </main>
     <footer>
         <h4 style="color: rgb(223, 216, 216);">&copy;Dampes</h4>
         <a href="mention.html"><h4>Mentions légales</h4></a>
