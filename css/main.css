@@ -135,6 +135,10 @@ margin-left: 5px;
     margin-top: 3%;
   }
 
+  .navigation .sub-menu.show li:active{
+    color:rgba(48, 50, 51, 1) ;
+  }
+
   /* Séparations */
 
   hr{
