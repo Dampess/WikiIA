@@ -577,10 +577,12 @@ footer h4:last-child {
   }
 
   .img-intro{
-    width: 100%;
+    
+    width: 100%; !important
   }
 
   footer h4:last-child{
     margin: 0;
   }
+
 }
