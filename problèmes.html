@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="images/logo-WikiAI.jpg" type="jpg">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/quiz.css">
     <script src="js/menu.js"></script>
     <script src="js/quiz.js" defer></script>
     <script src="js/toTop.js"></script>
@@ -63,7 +64,7 @@
           
       </div>
       <div class="bgi-header" style="background-image: url(images/bgi-prob.jpg);background-color: rgba(0, 0, 0, 0.55); background-blend-mode:multiply;">
-        <h1>L'IA imposent de se questionner sur les problèmes qui lui sont induite</h1>
+        <h1>L'IA imposent de se questionner sur les problèmes qui lui sont induits</h1>
         <h2>C'est important de connaître ça, non ?</h2>
         <h3>(Des quiz vous sont proposés à titre indicatif)</h3>
         <h3 style="font-size: 500%;">&#8595</h3>
@@ -74,6 +75,517 @@
       <div id="scrollUp">
         <a href="#top"><img src="images/to_top.png" /></a>
       </div>
+      <section>
+        <h3 class="h3-intro">Les vulnérabilités des systèmes d'IA</h3>
+        <br><br>
+        <article>
+          <p>L'évolution rapide de l'intelligence artificielle (IA) a apporté des avantages considérables, 
+            mais elle expose également les systèmes à des vulnérabilités potentielles. La sophistication 
+            croissante de l'IA peut être exploitée à des fins malveillantes, augmentant ainsi les risques de 
+            sécurité pour les individus et les organisations. Il est impératif d'aborder ces défis de sécurité 
+            pour garantir une utilisation responsable de l'IA.
+            </p>
+        </article>
+        <br><br>
+        <article>
+          <h4>Risques de Sécurité et Menaces de Cyberattaques</h4>
+          <br><br>
+          <div class="contenu-intro">
+            <p class="para-intro">1. Vulnérabilités des Systèmes d'IA : <br><br> 
+              - Complexité des Algorithmes : La complexité des algorithmes d'IA peut rendre les 
+              systèmes vulnérables aux attaques, car la compréhension complète des mécanismes internes 
+              peut être dificille. <br>
+              - Adversarial AI : La création délibérée de données d'entrée conçues pour tromper les 
+              modèles d'IA, connue sous le nom d'attaque adversariale, expose les vulnérabilités des 
+              systèmes. <br><br>
+              2. Menaces Actuelles et Futures : <br><br>
+              - Cyberattaques Sophistiquées : Les attaques basées sur l'IA, utilisant des techniques 
+              d'apprentissage automatique pour contourner les défenses, représentent une menace 
+              croissante. <br>
+              - Manipulation des Modèles : Les attaquants peuvent tenter de manipuler les modèles 
+              d'IA eux-mêmes, introduisant des biais ou altérant les résultats pour des gains malveillants. <br><br>
+              3. Solutions et Prévention : <br><br>
+              - Sécurisation des Modèles : La mise en place de protocoles de sécurité robustes pour les 
+              modèles d'IA, y compris le chiffrement et la vérification régulière de l'intégrité, est essentielle. <br>
+              - Détection des Attaques Adversariales : Des mécanismes de détection avancés peuvent 
+              être intégrés pour identifier les attaques adversariales et renforcer la résilience des modèles.
+
+              </p>
+              <img class="img-intro" src="images/vulnérabilités.jpg" alt="Oeuf menacé d'être cassé">
+
+          </div>
+          <br><br>
+          <p>4. Sécurité des Données : <br> <br>
+            - Cryptage des Données : Le cryptage des données, en transit et au repos, garantit une 
+            protection supplémentaire contre l'accès non autorisé. <br>
+            - Gestion Responsable des Données : Des politiques strictes de gestion des données, 
+            incluant la minimisation de la collecte et des protocoles de suppression, sont cruciales. <br><br>
+            5. Formation et Sensibilisation : <br><br>
+            - Éducation des Utilisateurs : Sensibiliser les utilisateurs aux risques de sécurité liés à l'IA 
+            et fournir des formations sur les meilleures pratiques peuvent réduire les vulnérabilités 
+            humaines. <br>
+            - Responsabilité des Développeurs : Les développeurs d'IA ont la responsabilité d'intégrer 
+            des pratiques de sécurité dès la conception et de mettre en œuvre des mises à jour régulières. <br><br>
+            6. Collaboration Internationale : <br><br>
+            - Partage d'Informations : La collaboration internationale pour le partage d'informations 
+            sur les menaces et les attaques réussies renforce la prévention et la préparation. <br>
+            - Normes de Sécurité Internationales : L'établissement de normes de sécurité 
+            internationales garantit une approche cohérente pour relever les défis de sécurité liés à l'IA.
+
+            </p>
+        </article>
+      </section>
+      <hr>
+      <section id="biais">
+        <h3 class="h3-intro">Biais Algorithmiques et Équité</h3>
+        <article>
+          <p>Malgré les biens faits de l’intelligence artificielle dans de nombreux domaines, elle 
+            soulève également des questions éthiques. Etant entrainée et programmée par la mains de 
+            l’homme en collaboration avec des masses de données, elle peut comporter des biais 
+            algorithmiques.
+            <br><br>L'un des défis majeurs liés à l'utilisation de l'intelligence artificielle (IA) réside dans la 
+            présence potentielle de biais dans les modèles. Ces biais peuvent émerger de diverses sources, 
+            notamment des données historiques, des représentations limitées ou des choix algorithmiques. 
+            Comprendre et atténuer ces biais est essentiel pour garantir une utilisation éthique et équitable 
+            de l'IA.
+            </p>
+        </article>
+        <br>
+        <br>
+        <h4> Origines des Biais</h4>
+        <br>
+        <article class="contenu-intro">
+          <img style="width: 20%;" class="img-intro" src="images/données.jpg" alt="Piles de dossiers">
+          <p style="margin-left: 2%;" class="para-intro">- Données Historiques : Les modèles d'IA apprennent à partir de données existantes, et si 
+            ces données sont biaisées, les modèles peuvent reproduire et amplifier ces biais.
+            <br><br>
+            - Représentations Limitées : Des préjugés peuvent être introduits si les données utilisées 
+            pour entraîner les modèles ne représentent pas adéquatement la diversité de la population 
+            réelle.
+            </p>
+            
+        </article>
+        <br>
+        <br>
+        <h4>Risques de Discrimination : </h4>
+        <br>
+        <article class="contenu-intro">
+          <img style="width: 20%;" class="img-intro" src="images/discrimination.jpg" alt="Oeufs blanc et oeuf brun">
+            <p style="margin-left: 2%;" class="para-intro">- Décisions Discriminatoires : Les modèles biaisés peuvent prendre des décisions 
+              discriminatoires, favorisant certains groupes tout en pénalisant d'autres, renforçant ainsi les 
+              inégalités. <br><br>
+              - Stéréotypes Perpétués : Les biais peuvent conduire à la perpétuation de stéréotypes 
+              existants, influençant négativement les recommandations et les décisions générées par l'IA.</p>
+              <br>
+        </article>
+        <br>
+        <br>
+        <h4>Conséquences Sociales :  </h4>
+        <br>
+        <article class="contenu-intro">
+            <p class="para-intro">- Inégalités Aggravées : L'utilisation de modèles biaisés peut aggraver les inégalités 
+              préexistantes en marginalisant certains groupes et en limitant leurs opportunités. <br><br>
+              - Impact sur l'Accès : Les personnes appartenant à des groupes minoritaires peuvent être 
+              désavantagées dans l'accès aux services basés sur l'IA.</p>
+              <img style="width: 20%;" class="img-intro" src="images/subject.jpg" alt="Réunion">
+              <br>
+        </article>
+        <br>
+        <br><h4> Nécessité de Transparence : </h4>
+        <br>
+        <article class="contenu-intro">
+            <p style="margin-left: 2%;" class="para-intro">- Compréhension des Décisions : Il est crucial de rendre les décisions des modèles d'IA 
+              compréhensibles, permettant aux utilisateurs et aux développeurs de détecter et de corriger les 
+              biais.
+               <br><br>
+               - Audit des Modèles : La transparence des algorithmes et des processus de modélisation 
+               favorise la détection précoce des biais et permet d'effectuer des audits approfondis.</p>
+               <img style="width: 20%;" class="img-intro" src="images/transparence.jpg" alt="Bille en verre">
+              <br>
+        </article>
+        <br>
+        <br><h4>Atténuation des Biais : </h4>
+        <br>
+        <article class="contenu-intro">
+          <img style="width: 20%;" class="img-intro" src="images/discrimination.jpg" alt="Oeufs blanc et oeuf brun">
+            <p style="margin-left: 2%;" class="para-intro">- Collecte de Données Équilibrée : Une collecte de données diversifiée et équilibrée peut 
+              contribuer à réduire les biais en fournissant une représentation plus complète de la réalité.
+               <br><br>
+               - Algorithme Éthique : Les concepteurs d'algorithmes peuvent incorporer des principes 
+               éthiques dans la conception des modèles pour minimiser les risques de biais.</p>
+              <br>
+        </article>
+        <br>
+        <br><h4>Responsabilité et Sensibilisation : </h4>
+        <br>
+        <article class="contenu-intro">
+          <img style="width: 25%; height: 250px;" class="img-intro" src="images/responsabilité2.jpg" alt="Pettite plante verte">
+            <p style="margin-left: 2%;" class="para-intro">- Responsabilité des Développeurs : Les développeurs sont responsables de la qualité 
+              éthique de leurs modèles et doivent prendre des mesures pour prévenir et corriger les biais. <br><br>
+              - Sensibilisation Continue : La sensibilisation à la problématique des biais dans l'IA doit 
+              être constamment promue, encourageant des pratiques plus responsables.</p>
+              <br>
+        </article>
+        <br>
+        <br><h4>Collaboration et Diversité :  </h4>
+        <br>
+        <article class="contenu-intro">
+          
+            <p style="margin-left: 2%;" class="para-intro">- Collaboration Interdisciplinaire : La collaboration entre experts en IA, éthiciens, et 
+              représentants de diverses communautés favorise une approche plus holistique de la réduction 
+              des biais.<br><br>
+              - Diversité dans le Développement : Intégrer la diversité dans les équipes de 
+              développement peut aider à identifier et à résoudre des biais potentiels plus efficacement.</p>
+              <img style="width: 20%;" class="img-intro" src="images/collaboration.jpg" alt="Groupe solidaire">
+              <br>
+        </article>
+        <br>
+        <br><h4>Réglementation et Normes : </h4>
+        <br>
+        <article class="contenu-intro">
+            <p style="margin-left: 2%;" class="para-intro">-Normes Éthiques Obligatoires : Les gouvernements et les organismes de réglementation 
+              peuvent jouer un rôle en établissant des normes éthiques contraignantes pour guider le 
+              développement et l'utilisation de l'IA.</p>
+              <img style="width: 20%;" class="img-intro" src="images/normes.jpg" alt="Piles de dossiers">
+              <br>
+        </article>
+        <br>
+        <br>
+        <article>
+          <p>En abordant de manière proactive les sources potentielles de biais, en favorisant la 
+            transparence, et en éduquant les parties prenantes, il est possible de minimiser les risques 
+            associés aux biais dans les modèles d'IA. La responsabilité partagée entre développeurs, 
+            régulateurs et utilisateurs est cruciale pour créer des systèmes d'IA équitables et socialement 
+            responsables.</p>
+        </article>
+        <br><br>
+        <article>
+          <p>Les conséquences des décisions prises par des systèmes d'IA biaisés sont vastes et 
+            peuvent aggraver les disparités existantes dans plusieurs secteurs de la société. Ces 
+            répercussions inégales soulèvent des préoccupations majeures en matière de justice, d'emploi, 
+            et de services financiers, contribuant à une augmentation des inégalités et de l'injustice.</p>
+        </article>
+        <br><br>
+        <article>
+          <p>La nécessité de rendre les modèles d'IA plus transparents et d'atténuer les biais est 
+            cruciale pour garantir des décisions justes et équitables. Des efforts substantiels sont déployés 
+            pour développer des méthodes visant à détecter, corriger et atténuer les biais, assurant ainsi une 
+            utilisation plus responsable de l'IA.</p>
+        </article>
+      </section>
+      <br>
+    <hr>
+    <section id="sécu">
+      <h3 class="h3-intro">Vie Privée et Sécurité des Données</h3>
+      <br>
+      <article>
+        <h4> Collecte et Utilisation des Données Personnelles</h4>
+        <br>
+        <br>
+        <div class="contenu-intro">
+          <img class="img-intro" src="images/model-finance.jpg" alt="Modélisation fiancière">
+          <p style="margin-left: 2%;" class="para-intro">L'utilisation extensive de l'intelligence artificielle (IA) repose sur l'exploitation de vastes 
+            ensembles de données, soulevant des préoccupations majeures en matière de confidentialité et 
+            de protection de la vie privée.
+            <br><br>
+            1. Collecte de Données Massives : 
+            <br><br>
+            - Étendue de la Collecte : Les systèmes d'IA collectent des quantités massives de 
+            données provenant de diverses sources, allant des habitudes en ligne aux données 
+            biométriques, créant ainsi des profils détaillés des individus.
+            <br>
+            - Surveillance Continue : Les dispositifs intelligents et les applications basées sur l'IA 
+            peuvent surveiller en continu les comportements, accumulant des données en temps réel pour 
+            améliorer la précision des modèles.
+            <br><br>
+            2. Risques de Confidentialité : 
+            <br><br>
+            - Accès aux Informations Sensibles : L'IA peut potentiellement accéder à des informations 
+            sensibles, telles que des données médicales, financières ou personnelles, augmentant les 
+            risques de divulgation non autorisée. <br>
+            - Profils Comportementaux : Les algorithmes d'IA analysent les comportements 
+            individuels pour prédire les préférences et les actions futures, générant des profils 
+            comportementaux qui suscitent des inquiétudes quant à l'intrusion dans la vie privée.
+
+            </p>
+        </div>
+        <br>
+        <br>
+        <p>3. Besoin de Transparence : 
+          <br><br>
+          - Algorithmes Opaques : Certains modèles d'IA sont complexes et difficiles à interpréter, 
+          ce qui rend difficile la compréhension de la manière dont les décisions sont prises, 
+          compromettant la transparence des processus. <br>
+          - Consentement et Contrôle : Les individus doivent être informés et donner leur 
+          consentement éclairé sur la collecte et l'utilisation de leurs données. Les systèmes devraient 
+          également permettre un contrôle accru sur la manière dont leurs informations sont utilisées.
+          <br><br>
+          4. Mesures de Protection : 
+          <br><br>
+          - Cryptage et Sécurité des Données : La mise en œuvre de mesures de sécurité robustes, 
+          telles que le cryptage, est cruciale pour protéger les données contre les accès non autorisés.
+          <br>
+          - Normes de Confidentialité : L'établissement de normes de confidentialité et de bonnes 
+          pratiques pour la collecte, le stockage et l'utilisation des données liées à l'IA est essentiel pour 
+          garantir un traitement éthique.
+          <br><br>
+          5. Responsabilité et Reddition de Comptes : 
+          <br><br>
+          - Cadre Réglementaire : Les autorités doivent développer des cadres réglementaires 
+          solides pour encadrer l'utilisation de l'IA, en particulier en ce qui concerne la confidentialité des 
+          données. <br>
+        - Responsabilité des Développeurs : Les concepteurs et les développeurs d'algorithmes 
+        d'IA ont la responsabilité d'intégrer des mécanismes de protection de la vie privée dès les phases 
+        de conception.
+          </p>
+      </article>
+      <br><br>
+    <hr>
+    <section id="ethique">
+      <h3 class="h3-intro">Transparence et Ethique</h3>
+      <br>
+      <br>
+      <article>
+        <h4>Transparence et Éthique dans l'Utilisation de l'IA
+        </h4>
+        <br><br>
+        <div class="contenu-intro">
+          <img style="height: 300px; width: 400px;" class="img-intro" src="images/responsabilité.jpg" alt="Machine à écrire avec le mot Ethique">
+          <p style="margin-left: 2%;" class="para-intro">L'intégration croissante de l'intelligence artificielle (IA) suscite des préoccupations 
+            importantes concernant la transparence des algorithmes et l'éthique entourant l'utilisation des 
+            données. La confiance du public et la préservation de l'équité exigent une compréhension 
+            approfondie des processus de prise de décision des systèmes d'IA. <br><br>
+            1. Transparence Algorithmique : <br><br>
+            - Explicabilité des Modèles : Les modèles d'IA doivent être conçus de manière à être 
+            compréhensibles, permettant aux utilisateurs de comprendre comment les décisions sont 
+            prises. <br>
+            - Interprétabilité des Résultats : La présentation claire des résultats et des prédictions 
+            renforce la transparence, aidant les utilisateurs à évaluer la validité des conclusions.
+          </p>
+        </div>
+        <br><br>
+        <p>2. Éthique de la Collecte de Données : <br><br>
+          - Consentement et Confidentialité : La collecte de données doit être basée sur le 
+          consentement éclairé des utilisateurs, avec des protocoles stricts de confidentialité pour 
+          protéger les informations sensibles. <br>
+          - Minimisation des Biais : Les concepteurs d'IA doivent travailler activement pour 
+          minimiser les biais dans les ensembles de données, garantissant des résultats équitables. <br><br>
+          3. Processus de Décision Compréhensibles : <br><br>
+           - Interactions Homme-Machine : Favoriser des interactions transparentes entre les 
+           systèmes d'IA et les utilisateurs permet de clarifier les processus de décision. <br>
+          - Traçabilité des Décisions : Mettre en place des mécanismes pour retracer et expliquer 
+          les décisions des modèles d'IA renforce la responsabilité. <br><br>
+          4. Éducation et Sensibilisation : <br><br>
+          - Formation des Utilisateurs : Des programmes éducatifs visant à informer les utilisateurs 
+          sur le fonctionnement de l'IA encouragent une utilisation plus consciente et éthique. <br>
+          - Responsabilisation des Développeurs : Les développeurs doivent être sensibilisés à 
+          l'importance de l'éthique dans la conception des systèmes d'IA. <br><br>
+          5. Standards et Réglementations : <br><br>
+          - Normes Éthiques Internationales : L'établissement de normes éthiques internationales 
+          guide les développeurs et les utilisateurs vers des pratiques responsables. <br>
+          - Réglementations Rigoureuses : Des réglementations strictes concernant l'utilisation de 
+          l'IA garantissent une application éthique et transparente. <br><br>
+          6. Responsabilité Sociale : <br><br>
+          - Transparence des Intentions : La communication ouverte sur les intentions des 
+          systèmes d'IA favorise une compréhension accrue et renforce la confiance. <br>
+          - Prise en Compte des Impacts : Évaluer régulièrement les impacts sociaux des systèmes 
+          d'IA assure une utilisation éthique et équitable. <br><br>
+
+          En cultivant la transparence algorithmique, en promouvant des pratiques éthiques de 
+          collecte de données et en éduquant les utilisateurs, la communauté de l'IA peut construire un 
+          socle solide de confiance. Les normes internationales et les réglementations jouent un rôle 
+          crucial pour guider le développement et l'utilisation éthiques de cette technologie prometteuse.
+          </p>
+      </article>
+      <br><br>
+    </section>
+    <hr>
+    <section>
+      <h3 class="h3-intro">Testez ce que vous avez compris</h3>
+      <article>
+        <div class="quiz-container">
+          <div id="quiz">
+            <div class="question" id="question1">
+              <p>Question 1 : Comment appel-t-on une attaque qui vise à introduire de fausses données dans un algorithme d'IA ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q1" value="a"> Une attaque par manipulation</label>
+                <label><input type="radio" name="q1" value="b"> Une attaque Inversiale</label>
+                <label><input type="radio" name="q1" value="c"> Une attaque Adversiale </label>
+              </div>
+            </div>
+        
+            <div class="question" id="question2">
+              <p>Question 2 : Quelles sont les premières personnes à devoir appliquer les bonnes pratiques dans le développement d'IA ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q2" value="a"> Les utilisateurs</label>
+                <label><input type="radio" name="q2" value="b"> Les développeurs</label>
+                <label><input type="radio" name="q2" value="c"> Les institutions législatives</label>
+              </div>
+            </div>
+        
+            <div class="question" id="question3">
+              <p>Question 3 : Doit-on s'inquiéter pour nos données en utilisant l'IA</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q3" value="a"> Peut-être</label>
+                <label><input type="radio" name="q3" value="b"> Oui </label>
+                <label><input type="radio" name="q3" value="c"> Non </label>
+              </div>
+            </div>
+
+            <div class="question" id="question4">
+              <p>Question 4 : Quels est le nom donnés aux défauts d'algorithmes dans cette page ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q4" value="a"> Biais</label>
+                <label><input type="radio" name="q4" value="b"> Billets</label>
+                <label><input type="radio" name="q4" value="c"> Défauts</label>
+              </div>
+            </div>
+            
+            <div class="question" id="question5">
+              <p>Question 5 : Qu'implique la traçabilité des décisions ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q5" value="a"> Une news lettre régulière</label>
+                <label><input type="radio" name="q5" value="b"> Pouvoir retracer et expliquer les décisions prises par l'IA </label>
+                <label><input type="radio" name="q5" value="c"> Pouvoir connaître le développeur de l'IA</label>
+              </div>
+            </div>
+            
+            <div class="question" id="question6">
+              <p>Question 6 : Qu'est-ce qu'un algorithme d'atténuation ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q6" value="a"> Un algorithme visant à réduire les biais d'un modèle d'IA </label>
+                <label><input type="radio" name="q6" value="b"> Un algorithme sous évolué et non mit à jour</label>
+                <label><input type="radio" name="q6" value="c"> Un algorithme visant à réduire les couleurs d'une image</label>
+              </div>
+            </div>
+
+            <div class="question" id="question7">
+              <p>Question 7 : De quoi proviennent les biais algorithmique ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q7" value="a"> De l'heure de création du modèle</label>
+                <label><input type="radio" name="q7" value="b"> Des données d'entrainement </label>
+                <label><input type="radio" name="q7" value="c"> De la météo</label>
+              </div>
+            </div>
+            
+            <div class="question" id="question8">
+              <p>Question 8 : Il existe des modèles d'IA spécialement conçuent pour attaquer ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q8" value="a"> Impossible</label>
+                <label><input type="radio" name="q8" value="b"> Oui</label>
+                <label><input type="radio" name="q8" value="c"> Non </label>
+              </div>
+            </div>
+            
+            <div class="question" id="question9">
+              <p>Question 9 : La complexité des algorithme les rends vulnérable</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q9" value="a"> Les attaquants n'ont pas les capacités de s'en prendre aux algorithmes</label>
+                <label><input type="radio" name="q9" value="b"> Ca renforce leur sécurisation</label>
+                <label><input type="radio" name="q9" value="c"> C'est un point faible </label>
+              </div>
+            </div>
+
+            <div class="question" id="question10">
+              <p>Question 10 : A quoi sert le General Problem Solver ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q10" value="a"> Se déplacer d'un point A à un point B</label>
+                <label><input type="radio" name="q10" value="b"> Absolument rien </label>
+                <label><input type="radio" name="q10" value="c"> Décomposer les problèmes complexes en sous-problèmes</label>
+              </div>
+            </div>
+            
+            <div class="question" id="question11">
+              <p>Question 11 : Si une plateforme de streaming me fournit des propositions d'écoutes  ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q11" value="a"> Bha il me connait bien et c'est tout</label>
+                <label><input type="radio" name="q11" value="b"> C'est de l'IA</label>
+                <label><input type="radio" name="q11" value="c"> C'est un hasard</label>
+              </div>
+            </div>
+            
+            <div class="question" id="question12">
+              <p>Question 12 : Les IA ont accés à nos données personnelles ?</p>
+              <br>
+              <div class="options">
+                <label><input type="radio" name="q12" value="a"> Non</label>
+                <label><input type="radio" name="q12" value="b"> Oui</label>
+                <label><input type="radio" name="q12" value="c"> Je suis un fantôme sur la toile et j'utilise un 3310</label>
+              </div>
+            </div>
+            <br>
+            <button onclick="nextQuestion()">Suivante</button>
+            <div id="result"></div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <hr>
+      
+          <h3 class="h3-intro">Poursuivez votre voyage </h3>
+        
+      <section class="cards">
+        
+        <article class="choice">
+          <img src="images/bgi-hist.jpg" alt="Histoire de l'IA">
+          <h4>L'Histoire</h4>
+          <br>
+          <p>Dans cette partie, vous suivrez les traces de la création de l'IA, des prémices à nos jours.
+          </p>
+          <br>
+         <a href="histoire.html"><button>Je découvre</button></a>
+        </article>
+        <article class="choice">
+          <img src="images/bgi-cyber.jpg" alt="Cybersécurité">
+          <h4>Les enjeux de Cybersécurité</h4>
+          <br>
+          <p>Dans cette partie, vous verez que cette technologie invite à se soucier des nouveaux problèmes de sécurité.
+          </p>
+          <br>
+          <br>
+         <a href="cyber.html"><button>Je découvre</button></a>
+        </article>
+        <article class="choice">
+          <img src="images/bgi-conseil.jpg" alt="Conseils d'application dans la vie quotidienne">
+          <h4>Conseils</h4>
+          <br>
+          <p>Dans cette partie, nous vous donnerons des conseils afin de gagner en productivité dans votre vie pro comme perso.
+          </p>
+          <br>
+         <a href="conseil.html"><button>Je découvre</button></a>
+        </article>
+        <article class="choice">
+          <img src="images/bgi-prob.jpg" alt="Problèmes de l'IA ">
+          <h4>Les applications</h4>
+          <br>
+          <p>Dans cette partie, vous découvrirez les différentes instituions qui utilisent déjà l'intelligence artificielle.
+          </p>
+          <br>
+          <br>
+          
+         <a href="application.html"><button>Je découvre</button></a>
+        </article>
+        <article class="choice">
+          <img src="images/bg-veille-info.jpg" alt="Veille info ">
+          <h4>Veille info</h4>
+          <br>
+          <p>Dans cette partie, vous retrouverez les dernières infos de mise à jours et des nouvelles sorties d'outils.
+          </p>
+          <br>
+         <a href="veille.html"><button>Je découvre</button></a>
+        </article>
+      </section>
     </main>
     <footer>
         <h4 style="color: rgb(223, 216, 216);">&copy;Dampes</h4>

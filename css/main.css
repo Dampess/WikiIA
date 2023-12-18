@@ -1,6 +1,11 @@
 * {
   margin: 0;
 }
+
+html{
+  background-color:rgb(120, 120, 120);
+}
+
 /* Style des polices */
 h1 {
   font-size: 250%;
@@ -43,6 +48,7 @@ p{
 body {
   box-sizing: border-box;
   background-color: rgb(138, 182, 182);
+  border-radius: 8px;
 }
 /* Header */
 
@@ -519,7 +525,7 @@ footer {
   margin: auto;
   border-radius: 8px;
   height: 8dvh;
-  margin-bottom: 0.5%;
+  margin-bottom: 1%;
 }
 
 footer h4 {
@@ -534,8 +540,25 @@ footer h4:last-child {
 
 /* Medias QUerys */
 
-@media screen and (min-width: 1500px) {
+/* Ecrans plus grand que 1920px */
+@media screen and (min-width: 1920px) {
+  
+  body{
+    width: 70%;
+    margin: auto;
+    padding: 0;
+  }
   li {
     font-size: 120%;
   }
 }
+
+/* Ecran plus grands que 2600px */
+
+@media screen and (min-width: 2600px){
+  body{
+    width: 40%;
+  }
+}
+
+/* Ecrans plus petit que 740px */
