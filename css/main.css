@@ -502,6 +502,15 @@ justify-content: space-between;
   }
 }
 
+/* ScrollUp */
+
+#scrollUp {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  opacity: 0;
+}
+
 /* Footer */
 
 footer {
